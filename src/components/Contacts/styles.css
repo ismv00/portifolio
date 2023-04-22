@@ -1,0 +1,41 @@
+.content-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+
+.content-buttons button {
+  width: 290px;
+  height: 60px;
+  border-radius: 18px;
+  border: none;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #3d3d3d;
+
+  letter-spacing: -0.531474px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-right: 5px;
+  gap: 20px;
+}
+
+.content-buttons button:first-child {
+  background-color: #fbd144;
+}
+
+.content-buttons button:hover {
+  background-color: #3d3d3d;
+  color: white;
+}
