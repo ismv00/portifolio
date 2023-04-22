@@ -9,19 +9,19 @@ import project6img from "./assets/projects/project6.jpeg";
 export const linksSocialMedia = [
   {
     icon: <FaYoutube />,
-    href: "",
+    href: "https://www.youtube.com/@igors.menezes4600/videos",
   },
   {
     icon: <FaLinkedin />,
-    href: "",
+    href: "https://www.linkedin.com/in/igorsmenezes/",
   },
   {
     icon: <FaTwitter />,
-    href: "",
+    href: "https://twitter.com/euigoorr",
   },
   {
     icon: <FaGithub />,
-    href: "",
+    href: "https://github.com/ismv00",
   },
 ];
 

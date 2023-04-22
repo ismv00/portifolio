@@ -18,7 +18,9 @@ export function Header() {
             {linksSocialMedia.map((item, index) => {
               return (
                 <li key={index}>
-                  <a href={item.href}>{item.icon}</a>
+                  <a href={item.href} target="_blank">
+                    {item.icon}
+                  </a>
                 </li>
               );
             })}
