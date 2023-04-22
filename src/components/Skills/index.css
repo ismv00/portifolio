@@ -1,0 +1,52 @@
+.content-skills {
+  background-color: white;
+  border-radius: 20px;
+
+  width: auto;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.content-skills button {
+  background-color: #d7d7d7;
+  border-radius: 10px;
+  height: 60px;
+  width: 330px;
+  border: 1px solid #d7d7d7;
+
+  text-align: center;
+  line-height: 33px;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #19191b;
+}
+
+.content-skills div {
+  text-align: center;
+  line-height: 33px;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #19191b;
+
+  flex: 1;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 48px;
+}
+
+.content-grid img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}

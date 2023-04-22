@@ -5,7 +5,7 @@ import "./style.css";
 export function Header() {
   return (
     <div className="container">
-      <div className="profile-info" data-aos="fade-up">
+      <div className="profile-info" data-aos="fade-down">
         <img
           src="https://avatars.githubusercontent.com/u/62908769?v=4"
           alt="Minha foto, tirada do perfil do github"
