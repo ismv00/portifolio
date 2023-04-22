@@ -3,7 +3,7 @@ import "./style.css";
 export function ProfileFacts() {
   return (
     <div className="container">
-      <div className="content" data-aos="fade-down">
+      <div className="content" data-aos="fade-up">
         <div className="facts">
           <p>7</p>
           <p>Years of work</p>

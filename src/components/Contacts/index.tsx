@@ -5,7 +5,7 @@ import "./styles.css";
 export function Contacts() {
   return (
     <div className="container">
-      <div className="content-buttons" data-aos="fade-down">
+      <div className="content-buttons" data-aos="fade-up">
         <button>
           Download CV
           <FaDownload className="icon" />
