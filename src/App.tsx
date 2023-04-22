@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import { ProfileFacts } from "./components/ProfileFacts";
 
 import "./global.css";
+import { Contacts } from "./components/Contacts";
 
 function App() {
   Aos.init({
@@ -15,6 +16,7 @@ function App() {
     <div>
       <Header />
       <ProfileFacts />
+      <Contacts />
     </div>
   );
 }
