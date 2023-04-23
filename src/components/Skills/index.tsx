@@ -7,15 +7,16 @@ export function Skills() {
       <div data-aos="fade-up">
         <div className="content-skills">
           <button>Portifolio</button>
-          <div>Skills</div>
         </div>
 
         <div>
-          <ul className="content-grid">
+          <ul className="content-grid" data-aos-delay="400">
             {projects.map((item, index) => {
               return (
                 <li key={index}>
-                  <img src={item.image} alt="" />
+                  <a href={item.href} target="_blank">
+                    <img src={item.image} alt={item.alt} />
+                  </a>
                 </li>
               );
             })}

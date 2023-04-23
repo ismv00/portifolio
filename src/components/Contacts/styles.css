@@ -29,6 +29,8 @@
 
   padding-right: 5px;
   gap: 20px;
+
+  transition: background 0.3s;
 }
 
 .content-buttons button:first-child {

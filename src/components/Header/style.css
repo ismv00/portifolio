@@ -44,3 +44,11 @@
 
   text-decoration: none;
 }
+
+.profile-info .social-media a {
+  color: #575757;
+}
+
+.profile-info .social-media a:hover {
+  color: #3d3d3d;
+}
